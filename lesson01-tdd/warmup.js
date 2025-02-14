@@ -65,12 +65,25 @@ function spaceInBetween(n) {
 //output = The first and last row all have *, inbetween the first and last row the first and last column have * inbetween that have spaces 
 
 function spaceInBetween2(n, m){
-
-
-
-
+// n = row, m = column
+//initalize varialble to hold the result
+let row = ""
+//looping row n
+for (let i = 0; i < n; i++){
+    //check if it is first or last row
+        if(i == 0 || i == n-1){
+            //adding * to row m times with repeat function and add \n for a new line
+            row += "*".repeat(m) + "\n"
+        } else {
+            //adding * with empty space repeating m times - 2 (because the first and last column having *) adding * and \n 
+            row += "*" + " ".repeat(m-2) + "*" + "\n"
+    }
+    
 }
-console.log(spaceInBetween2(5,5))
+return row
+}
+
+console.log(spaceInBetween2(20,5))
 
 
 // Console.log the result of each of the above functions to test them. Run your file with node warmup.js and check the terminal for the correct output.
