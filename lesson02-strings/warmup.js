@@ -80,8 +80,8 @@ if ( words.length == 2){
 function discounted(price, discount) {
     return price - discount
 }
-console.log(discounted(100, 15))
-console.log(discounted(50, 25))
+// console.log(discounted(100, 15))
+// console.log(discounted(50, 25))
 
 // Console.log each of your answers with the test cases provided. Attempt to write each one with TDD.
 
