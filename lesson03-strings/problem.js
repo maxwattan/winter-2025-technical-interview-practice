@@ -31,6 +31,18 @@ function stringMatching(text, pattern) {
   // TODO: Implement the string matching algorithm
   // Return an array of indices where the pattern is found in the text
   // If the pattern is not found, return an empty array
+
+  //input => text string, pattern string 
+  // case sensitive index start at 0
+
+    
+  
+  
+  
+  
+  
+  //return output array
+  
 }
 
 module.exports = stringMatching;
